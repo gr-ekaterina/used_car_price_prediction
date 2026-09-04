@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data files (keep documentation)
+data/*
+!data/README.md
+*.csv
+*.parquet
+*.xlsx
+
+# Generated model artifacts
+*.pkl
+*.joblib
+
+# Logs / caches
+*.log
+.pytest_cache/
+.mypy_cache/
